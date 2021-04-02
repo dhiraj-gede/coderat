@@ -2,6 +2,9 @@
   "name": "coderat",
   "version": "0.1.0",
   "private": true,
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
@@ -37,9 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
-  },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "repository": {
@@ -53,3 +53,4 @@
   },
   "homepage": "https://github.com/dhiraj-gede/coderat"
 }
+ 
