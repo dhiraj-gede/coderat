@@ -64,6 +64,7 @@ const Contact = () => {
         setSending(true);
 
         const response = await fetch('https://api.hamishw.com/message', {
+          //TODO UPDATE API
           method: 'POST',
           mode: 'cors',
           headers: {

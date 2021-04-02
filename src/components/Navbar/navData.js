@@ -21,18 +21,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
-    icon: 'twitter',
+    label: 'Instagram',
+    url: 'https://www.instagram.com/dhiraj_gede/',
+    icon: 'instagram',
   },
   {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
+    label: 'Discord',
+    url: 'https://discord.com/invite/nzgywDWFmd',
+    icon: 'discord',
   },
   {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/dhiraj-gede',
     icon: 'github',
   },
 ];

@@ -138,7 +138,7 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Project-OrangeRat</title>
+        <title>CodeRats</title>
         <meta
           name="description"
           content="Fill Discription" //TODO fill discription

@@ -6,7 +6,7 @@ import { Button } from 'components/Button';
 import DecoderText from 'components/DecoderText';
 import Divider from 'components/Divider';
 import Image from 'components/Image';
-import Section from 'components/Section'; 
+import Section from 'components/Section';
 import ProfileImg from 'assets/baburao.jpeg';
 import ProfileImgLarge from 'assets/profile-large.jpg';
 import ProfileImgPlaceholder from 'assets/profile-placeholder.jpg';
