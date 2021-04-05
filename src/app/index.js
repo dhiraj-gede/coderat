@@ -17,12 +17,12 @@ import './index.css';
 
 const Home = lazy(() => import('pages/Home'));
 const Contact = lazy(() => import('pages/Contact'));
-const ProjectSPR = lazy(() => import('pages/Home'));
 
 //TODO Update URL
-const ProjectSlice = lazy(() => import('pages/Home'));
-const ProjectVolkihar = lazy(() => import('pages/Home'));
-const Articles = lazy(() => import('pages/Home'));
+const ProjectSlice = lazy(() => import('pages/Slice'));
+// const ProjectVolkihar = lazy(() => import('pages/Home'));
+const ProjectSPR = lazy(() => import('pages/SmartSparrow'));
+// const Articles = lazy(() => import('pages/Home'));
 const Page404 = lazy(() => import('pages/404'));
 const Uses = lazy(() => import('pages/Uses'));
 
@@ -89,10 +89,10 @@ const AppRoutes = () => {
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/" component={Home} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="./pages/Home" component={ProjectSlice} />
-                    <Route path="./pages/Home" component={ProjectVolkihar} />
+                    <Route path="/projects/slice" component={ProjectSlice} />
+                    {/* <Route path="./pages/Home" component={ProjectVolkihar} /> */}
                     {/* <Route path="./pages/Home" component={Articles} /> */}
-                    <Route path="./pages/Home" component={ProjectSPR} />
+                    <Route path="/projects/smart-sparrow" component={ProjectSPR} />
                     {/* TODO Update URL */}
                     <Route path="/uses" component={Uses} />
                     <Route component={Page404} />

@@ -40,10 +40,10 @@ import prerender from 'utils/prerender';
 import { media } from 'utils/style';
 import './index.css';
 
-const title = 'Biomedical image collaboration';
+const title = 'To Create an organization to help students learn';
 const description =
-  'This project involved designing a better way for biomedical educators and learners to annotate digital slides together.';
-const roles = ['User Research', 'UX Design', 'Interface Design'];
+  'This project involved designing a better way for students and mentors to collaborate and learn together';
+const roles = ['Web Development', 'UX Design', 'Android Development'];
 
 const ProjectSlice = () => {
   useScrollRestore();
@@ -64,7 +64,7 @@ const ProjectSlice = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.best.edu.au/s/q2yjjvl7?data=8%404!9%4020303!10%40-15087&version=1"
+          url="https://dhiraj-gede.github.io/coderat/"
           roles={roles}
         />
         <ProjectSection first>
@@ -82,14 +82,12 @@ const ProjectSlice = () => {
             <div className="sidebar__images-text">
               <ProjectSectionHeading>Bringing it together</ProjectSectionHeading>
               <ProjectSectionText>
-                Teachers needed a better way to create collaborative group activities by
-                annotating slides on Slice. Before starting this project, a layer could
-                only be annotated by a single user, making it difficult for learners to
-                work together.
+                Seniors/ mentors needed a better way to create collaborative group
+                activities made easier than ever before
               </ProjectSectionText>
               <ProjectSectionText>
-                Our solution was to allow users to be invited to a layer, where they can
-                see others’ annotations and make their own.
+                Join our Discord Server to get along other developers and start
+                contributing.
               </ProjectSectionText>
             </div>
             <div className="slice__sidebar-images">
@@ -115,12 +113,11 @@ const ProjectSlice = () => {
             <ProjectTextRow>
               <ProjectSectionHeading>Improving the experience</ProjectSectionHeading>
               <ProjectSectionText>
-                A problem we heard about often form users was that it was difficult to
-                find images they had previously seen or worked on. To solve this we added
-                a new tab that lists all previously annotated slides. In addition, we
-                added the ability to favorite slides, so if users find an interesting
-                slide they want to annotate later, they can easily save it to their
-                account.
+                A problem that we heard and experienced about often from students was lack
+                of guidance results in one either loosing interest in learning or being
+                stuck in a learning path. To solve this we formed an organization that
+                helps you connect with people that share your interest, so you're able to
+                reach your destination A.S.A.P
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -154,13 +151,7 @@ const ProjectSlice = () => {
             </div>
             <div className="slice__grid-text">
               <ProjectSectionHeading>Meaningful details</ProjectSectionHeading>
-              <ProjectSectionText>
-                Marking and annotating areas on high resolution biomedical images is the
-                core experience of the app, and it was easy to get lost or lose sense of
-                scale when zooming in on details. Adding measurements for the perimeter
-                and area of an annotation both helped to communicate the overall scale of
-                the image and how large the annotated feature is in comparison.
-              </ProjectSectionText>
+              <ProjectSectionText>fill something over here.</ProjectSectionText>
             </div>
           </ProjectSectionContent>
         </ProjectSection>

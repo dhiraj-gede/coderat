@@ -160,7 +160,7 @@ const Home = () => {
         title="Designing the future of education"
         description="Designing a Community to help Students Resolve Doubts"
         buttonText="View Project"
-        buttonLink="/projects/smart-sparrow" //Todo change the link address
+        buttonLink="/projects/slice" //Todo change the link address from here and change link address from app.index.js
         model={{
           type: 'laptop',
           alt: 'Code Rats lesson builder',
@@ -208,7 +208,7 @@ const Home = () => {
         title="Full Satck Web-Development"
         description="Learn M.E.R.N Stack development from scratch"
         buttonText="View Course Catelogue"
-        buttonLink="/projects/slice" //Todo change the link address
+        buttonLink="/projects/smart-sparrow" //Todo change the link address
         model={{
           type: 'laptop',
           alt: 'Annotating a biomedical image in the Slice app',
