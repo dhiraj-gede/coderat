@@ -163,7 +163,7 @@ const Home = () => {
         buttonLink="/projects/smart-sparrow" //Todo change the link address
         model={{
           type: 'laptop',
-          alt: 'Smart Sparrow lesson builder',
+          alt: 'Code Rats lesson builder',
           textures: [
             {
               src: sprTexture,
