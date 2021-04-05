@@ -35,4 +35,10 @@ export const socialLinks = [
     url: 'https://github.com/dhiraj-gede',
     icon: 'github',
   },
+
+  // {
+  //   label: 'Linkedin',
+  //   url: 'https://github.com/dhiraj-gede',
+  //   icon: 'Linkedin',
+  // },
 ];

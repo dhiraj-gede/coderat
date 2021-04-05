@@ -86,12 +86,13 @@ const AppRoutes = () => {
               <div className={classNames('app__page', `app__page--${status}`)}>
                 <Suspense fallback={<Fragment />}>
                   <Switch location={location}>
+                    <Route exact path="/home" component={Home} />
                     <Route exact path="/" component={Home} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="pages/Home" component={ProjectSlice} />
-                    <Route path="pages/Home" component={ProjectVolkihar} />
-                    <Route path="pages/Home" component={Articles} />
-                    <Route path="pages/Home" component={ProjectSPR} />
+                    <Route path="./pages/Home" component={ProjectSlice} />
+                    <Route path="./pages/Home" component={ProjectVolkihar} />
+                    {/* <Route path="./pages/Home" component={Articles} /> */}
+                    <Route path="./pages/Home" component={ProjectSPR} />
                     {/* TODO Update URL */}
                     <Route path="/uses" component={Uses} />
                     <Route component={Page404} />
